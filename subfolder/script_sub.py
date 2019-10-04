@@ -1,6 +1,8 @@
-print("script_sub.py's __name__: {}".format(__name__))
-print("script_sub.py's __package__: {}".format(__package__))
-from .. import script2 as
+
+from .. import script2
+
+# python3 -m python_rest.subfolder.script_sub to execute
+
+
 
 script2.function_sub()
-
