@@ -5,4 +5,7 @@ from .. import script2
 
 
 
-script2.function_sub()
+
+while True:
+    script2.function_sub()
+    

@@ -17,4 +17,4 @@ ADD ./ /app
 
 WORKDIR /app
 
-#CMD "python3.7 -m subfolder.script_sub"
+ENTRYPOINT [ "python3.7","-m","app.subfolder.script_sub" ]
